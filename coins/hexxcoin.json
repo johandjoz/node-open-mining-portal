@@ -1,0 +1,6 @@
+{
+  "name": "Hexxcoin",
+  "symbol": "HXX",
+  "algorithm": "lyra2z330",
+  "sha256DHeader" : true
+}

@@ -4,9 +4,9 @@
 
 -------
 ### Node Open Mining Portal consists from 3 main modules:
-* Main module - https://github.com/foxer666/node-open-mining-portal
-* Stratum Pool - https://github.com/foxer666/node-stratum-pool
-* Node Multihashing libraries https://github.com/foxer666/node-multi-hashing
+* Main module - https://github.com/johandjoz/node-open-mining-portal
+* Stratum Pool - https://github.com/johandjoz/node-stratum-pool
+* Node Multihashing libraries https://github.com/johandjoz/node-multi-hashing
 
 Stratum Pool can be replaced with node-merged-pool (it's made in UNOMP)
 Adding new algos threw Node Multihashing libraries.
@@ -16,9 +16,10 @@ Current version: v1.0.11
 -------
 ### Install
 ```
-git clone https://github.com/foxer666/node-open-mining-portal.git pool
+git clone https://github.com/johandjoz/node-open-mining-portal.git pool
 cd pool
 npm install
+nvm install v8.11.1
 node init.js
 ```
 -------
@@ -54,6 +55,7 @@ You can see the logs of the server with ```docker logs -f nomp```, or jump into 
 #### Need tests
 |   | Algorithm | Comment|
 | ------------- | ------------- | ------------- |
+| ? | __lyra2z330__ | under dev and test for hexxcoin |
 | ? | __Argon2__ | need tests |
 | ? | __Blake__ | need tests |
 | ? | __Blake2S__ | need tests |
@@ -71,7 +73,6 @@ You can see the logs of the server with ```docker logs -f nomp```, or jump into 
 | ? | __lyra2re__ | need tests |
 | ? | __lyra2re2__ | need tests |
 | ? | __lyra2rev2__ | need tests |
-| ? | __lyra2z330__ | need tests |
 | ? | __NIST5__ | need tests |
 | ? | __S3__ | need tests |
 | ? | __Scrypt-N__ | need tests |
